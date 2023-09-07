@@ -18,3 +18,13 @@ Exemplo Process ID
 Exemplo Cadeia de processos
 ![image](https://github.com/brunoroveri/Lab02a/assets/142548195/7c188456-820a-47b0-b366-850d15cff62c)
 ![image](https://github.com/brunoroveri/Lab02a/assets/142548195/46ed4420-e4a6-4e9e-b60d-cf4dd607a329)
+
+EXERCICO 1:
+Rode o programa anterior para valores grandes de n. As
+mensagens sempre estar˜ao ordenadas pelo valor de i?
+Resposta: Não, pois o código está como i <= n em vez de i < n
+
+EXERCICIO 2:
+O que acontece se o programa anterior escreve-se as mensagens
+para sys.stdout, usando print, ao inv´es de para sys.stderr?
+Resposta: as mensagens seriam exibidas na tela ou seriam redirecionadas para o destino padrão de saída, caso o programa fosse executado em um ambiente onde a saída padrão fosse redirecionada para um arquivo.
